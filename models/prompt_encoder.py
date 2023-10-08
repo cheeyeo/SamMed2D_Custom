@@ -19,9 +19,8 @@ class PromptEncoder(nn.Module):
         self.input_image_size = input_image_size
         self.pe_layer = PositionEmbeddingRandom(embed_dim // 2)
 
-
-
-
+    def forward(self):
+        pass
 
 
 
